@@ -14,8 +14,14 @@ Data: 08 de Outubro de 2025
 Descritivo: Escreva um programa que use for para imprimir os números de 1 a 10.
 */
 
-for ($i = 1; $i <= 10; $i++) {
-    echo $i . " ";
+$numeroSecreto = rand(1, 100);
+
+
+while ($palpite != $numeroSecreto) {
+    $palpite = (int)readline("digite um numero de 1 a 100: ");
+    
+
 }
+    
 
 ?>
