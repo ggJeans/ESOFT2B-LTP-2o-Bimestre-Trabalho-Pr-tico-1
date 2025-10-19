@@ -11,7 +11,8 @@ Componentes:
 25363487-2 - Leonardo Schimock Silveira
 25357718-2 - Jean Carlos Siqueira dos Santos
 Data: 09 de Outubro de 2025
-Descritivo: Crie um programa que peça ao usuário para adivinhar um número (ex: 7) e continue pedindo até que ele acerte.
+Descritivo: 7.WHILE: Crie um programa que peça ao usuário para adivinhar um número (ex: 7) e continue pedindo até que ele acerte.
+
 */
 
 //Adiciona um numero aleatório de 1 a 100
@@ -36,7 +37,6 @@ if ($palpite == $numeroSecreto){
     echo "O numero secreto é: ", $palpite;
 
 }
-
 
 
 

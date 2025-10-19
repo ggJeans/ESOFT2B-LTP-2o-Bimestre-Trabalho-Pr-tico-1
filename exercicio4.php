@@ -1,5 +1,4 @@
-<?php 
-
+<?php   
 /*
 Curso: Engenharia de Software
 Disciplina: Linguagem e Técnicas de Programacão
@@ -11,12 +10,10 @@ Componentes:
 25363487-2 - Leonardo Schimock Silveira
 25357718-2 - Jean Carlos Siqueira dos Santos
 Data: 08 de Outubro de 2025
-Descritivo: 1.FOR: Escreva um programa que use for para imprimir os números de 1 a 10.
-
+Descritivo: 4.FOR: Escreva um programa que use for para contar de 10 a 1 em ordem decrescente.
 */
 
-for ($i = 1; $i <= 10; $i++) {
-    echo $i . " ";
-}
+for ($i = 10; $i >=1; $i--)
+    echo $i, "\n";
 
 ?>

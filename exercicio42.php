@@ -1,5 +1,4 @@
 <?php 
-
 /*
 Curso: Engenharia de Software
 Disciplina: Linguagem e Técnicas de Programacão
@@ -11,12 +10,18 @@ Componentes:
 25363487-2 - Leonardo Schimock Silveira
 25357718-2 - Jean Carlos Siqueira dos Santos
 Data: 08 de Outubro de 2025
-Descritivo: 1.FOR: Escreva um programa que use for para imprimir os números de 1 a 10.
+Descritivo: 42.Função: Crie uma função maiorNumero que receba dois números e retorne o maior entre eles.
 
 */
 
-for ($i = 1; $i <= 10; $i++) {
-    echo $i . " ";
+// Recebe dois números e retorna o maior entre eles
+function maiorNumero($a, $b) {
+    return ($a > $b) ? $a : $b;
 }
+
+// Testa a função
+echo "Maior número entre 12 e 9 é: " . maiorNumero(12, 9) . "\n\n";
+
+
 
 ?>
