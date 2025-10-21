@@ -8,6 +8,7 @@ Disciplina: Linguagem e Técnicas de Programacão
 Professor: Flores
 Turma: ESOFT-2B
 Componentes:
+            25178060-2 - Rodrigo Samuel Gulka
             25363636-2 - Jheymis Bueno Gonçalves
             25363611-2 - Thiago de Barros Inácio
             25363487-2 - Leonardo Schimock Silveira
@@ -28,6 +29,7 @@ while ($numeros[$i] != 0) {
 }
 
 echo "A soma dos números digitados é: $soma";
+
 
 
 ?>
