@@ -18,14 +18,12 @@ mostrar o menu até que o usuário escolha "Sair".
 
 *************************************************************/
 
-$opcao = 3;
-
 do {
     echo "1. Iniciar <br>";
     echo "2. Parar <br>";
     echo "3. Sair <br>";
     echo "Escolha uma opção:<br>";
-
+    $opcao = readline();
 
     switch ($opcao) {
         case 1:
