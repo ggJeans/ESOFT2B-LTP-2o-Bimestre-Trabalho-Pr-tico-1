@@ -18,7 +18,7 @@ Descritivo: Usando o array de cidades do exercício 16, imprima cada cidade em u
 
 *************************************************************/
 
-$cidades = array("cidade1", "cidade2", "cidade3", "cidade4", "cidade5");
+$cidades = array("Curitiba", "São Paulo", "Rio de Janeiro", "Belo Horizonte", "Porto Alegre");
 
 foreach ($cidades as $cidade) {
     echo $cidade . "<br>";
@@ -27,3 +27,4 @@ foreach ($cidades as $cidade) {
 
 
 ?>
+
